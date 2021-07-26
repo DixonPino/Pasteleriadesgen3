@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Pacifico', cursive;
+    
+
+/*font-family: 'Oswald', sans-serif;*/
+}
+
+ul{
+    list-style: none;
+}
+
+    
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+/* navegacion*/
+
+.nav-main{
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+}
+
+.nav-main ul{
+    display: flex;
+}
+.nav-main ul li{
+    padding: 10px;
+    
+}
+.nav-main ul li a{
+    padding: 1rem;
+    font-size: 20px;
+   
+}
+.nav-main ul li a:hover{
+    border-bottom: 4px solid rgb(179, 69, 69);
+
+}
+
+.nav-main ul.nav-menu{
+    flex: 1;
+    margin-left: 20px;
+}
+
+/*Showcase*/
+hr{
+    color:#000;
+}
+.showcase{
+   
+    width: 100%;
+    height: 400px;
+   padding-bottom: 50px;
+   margin-bottom: 25px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-end;
+   
+}
+
+.btn{
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #ce4b4b;
+    margin: 10px 0;
+    font-size: 15px;
+    border: 1px solid #000;
+}
+.btn:hover{
+    opacity: .8;
+}
+
+.showcase h2,
+.showcase p{
+    margin-bottom: 10px;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+.secciones{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    margin: 10px 0;
+    font-family: 'Oswald', sans-serif;
+    
+    
+}
+.secciones img{
+    width: 100%;
+    height: 180px;
+} 
+.secciones a{
+    padding: 10px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.secciones a:hover{
+    text-decoration: underline;
+}
+
+.social{
+    margin: 30px;
+
+}
+.social p{
+    text-align: center;
+    font-size:  30px;
+    margin-bottom: 20px;
+    font-family: 'Pacifico', cursive;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links a{
+    margin: 0 25px;
+}
+.links a i{
+    font-size: 2rem;
+}
